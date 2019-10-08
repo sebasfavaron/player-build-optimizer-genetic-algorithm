@@ -1,0 +1,38 @@
+{
+	"methods": {
+		"crossing": "TWO_POINT",
+		"selection1": "TOURNAMENT",
+		"selection2": "ROULETTE",
+		"selection3": "ROULETTE",
+		"selection4": "ROULETTE",
+		"replacement": "SECOND_REPLACER",
+		"mutation": "GENE"
+	},
+	"characterModifiers": "DEFENDER3",
+	"mutationCriteria": {
+		"minHeight": 1.3,
+		"maxHeight": 2.0,
+		"uniform": true,
+		"probability": 0.5,
+		"minProbability": 0.01,
+		"maxProbability": 0.6
+	},
+	"endCriteria": {
+		"type": "CONTENT",
+		"maxGenerations": 5000,
+		"contentK": 25,
+		"structurePercentage": 0.8,
+		"expectedFitness": 50
+	},
+	"dataPath": "fulldata/",
+	"replacementK": 100,
+	"populationSize": 2000,
+
+	"A": 0.5,
+	"B": 1,
+
+	"boltzmannTemperature": 1000,
+	"tournamentProbability": false,
+	"tournamentPlayerSize": 2,
+	"deterministic": false
+}
