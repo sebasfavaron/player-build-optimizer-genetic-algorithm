@@ -1,6 +1,7 @@
 # Optimizing player builds with Genetic Algorithms
 Project for "Sistemas de inteligencia artificial" @ITBA, written in Java
 This is a university project done in collaboration with Ximena Zuberbuhler, Martin Victory and Segundo Fariña.
+The project follows the guidelines and objectives presented in "Enunciado.pdf"
 
 ## Objective
 Implement a genetic algorithm engine in Java, capable of using different replacing, selection and mutation methods.
